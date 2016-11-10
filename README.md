@@ -28,12 +28,12 @@ A secondary objective will be feature reduction. (In some to the literature pert
 - Matplotlib and Seaborn for plotting and visualization
 
 ###Methods
-We will look at some of the approaches that deal with class imbalance. These can be cost function-based or sampling-based. We will also be working with feature selection methods. We will begin with the following:
+We will look at some of the approaches that deal with class imbalance. These can be a cost sensitive learning approach or sampling-based. We will also be working with feature selection methods. We will begin with the following:
 
 1. [Random Forest variable importance (feature selection)](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_ocsvm.ipynb)
 2. [One-class SVM](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_ocsvm.ipynb) 
 3. [SVM with SMOTE (oversampling minority class/undersampling majority class)](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_svm_smote.ipynb)
-4. Random Forest
+4. [Random Forest (weighting the classes)](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_rf.ipynb)
 5. Boosting methods
 
 This is Work-In-Progress so more exercises will be added on an on-going basis.
