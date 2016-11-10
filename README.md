@@ -16,7 +16,7 @@ The dataset has the following characteristics:
   6.	some columns have constant values 
 
 ### Objective
-The SECOM dataset presents two problems: working with skewed data and feature selection. 
+The SECOM dataset presents us with two problems: (i) working with skewed data and (ii) feature selection. 
 The main focus for this analysis will be the class imbalance issue and the ability to successfully predict fails. Strategies used in fraud/anomaly detection/rare disease diagnosis will be useful here. 
 A secondary objective will be feature reduction. (In some to the literature pertaining to the SECOM dataset, this was the primary goal <a href="#ref1">[1]</a>.) A streamlined feature set can not only lead to better prediction accuracy and data understanding but also save manufacturing resources. 
 
@@ -30,12 +30,13 @@ A secondary objective will be feature reduction. (In some to the literature pert
 ###Methods
 We will look at some of the approaches that deal with class imbalance. These can be cost function-based or sampling-based. We will also be working with feature selection methods. We will begin with the following:
 
-1. Random Forest variable importance (feature selection)
-2. One-class SVM 
-3. SVM with SMOTE (oversampling minority class/undersampling majority class)
+1. [Random Forest variable importance (feature selection)](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_ocsvm.ipynb)
+2. [One-class SVM](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_ocsvm.ipynb) 
+3. [SVM with SMOTE (oversampling minority class/undersampling majority class)](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_svm_smote.ipynb)
 4. Random Forest
-5. other methods
+5. Boosting methods
 
+This is Work-In-Progress so more exercises will be added on an on-going basis.
 
 ###Further Reading
 <a name="ref1"></a>[1] [McCann, Michael, et al. "Causality Challenge: Benchmarking relevant signal components for effective monitoring and process control." NIPS Causality: Objectives and Assessment.2010.](https://scholar.google.com/scholar?cluster=9582225450011234329&hl=en&as_sdt=0,5&sciodt=0,5)
