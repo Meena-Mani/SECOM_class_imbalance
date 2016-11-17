@@ -33,13 +33,15 @@ We will look at some of the approaches that deal with class imbalance. These can
 1. [Random Forest variable importance (feature selection)](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_ocsvm.ipynb)
 2. [One-class SVM](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_ocsvm.ipynb) 
 3. [SVM with SMOTE (oversampling minority class/undersampling majority class)](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_svm_smote.ipynb)
-4. [Random Forest (weighting the classes)](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_rf.ipynb)
-5. Boosting methods
+4. [SVM, Undersampling and Data Cleaning for Imbalanced Data](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_svm_undersampling.ipynb)
+5. [Random Forest (weighting the classes)](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_rf.ipynb)
+6. Boosting methods
 
-This is Work-In-Progress so more exercises will be added on an on-going basis.
+This is Work-In-Progress so new exercises will be added and old ones refined on an on-going basis.
 
 ###Further Reading
 <a name="ref1"></a>[1] [McCann, Michael, et al. "Causality Challenge: Benchmarking relevant signal components for effective monitoring and process control." NIPS Causality: Objectives and Assessment.2010.](https://scholar.google.com/scholar?cluster=9582225450011234329&hl=en&as_sdt=0,5&sciodt=0,5)
+<a name="ref2"></a>[2] [H. He and E. A. Garcia, “Learning from Imbalanced Data,” IEEE Trans. Knowledge and Data Engineering, vol. 21, issue 9, pp. 1263-1284, 2009.](http://www.ele.uri.edu/faculty/he/PDFfiles/ImbalancedLearning.pdf)
 
 
 
