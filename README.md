@@ -36,9 +36,8 @@ We will look at some of the approaches that deal with class imbalance. These can
 4. [SVM, Undersampling and Data Cleaning for Imbalanced Data](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_svm_undersampling.ipynb)
 5. [Random Forest (weighting the classes)](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_rf.ipynb)
 6. [GBM](https://github.com/Meena-Mani/SECOM_class_imbalance/blob/master/secomdata_gbm.ipynb)
-7. XGBoost
 
-This is Work-In-Progress so new exercises will be added and old ones refined on an on-going basis.
+
 
 ### Further Reading
 <a name="ref1"></a>[1] [McCann, Michael, et al. "Causality Challenge: Benchmarking relevant signal components for effective monitoring and process control." NIPS Causality: Objectives and Assessment.2010.](https://scholar.google.com/scholar?cluster=9582225450011234329&hl=en&as_sdt=0,5&sciodt=0,5)  
